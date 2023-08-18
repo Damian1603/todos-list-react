@@ -6,11 +6,11 @@ import Section from './Section';
 import Main from './Main';
 
 const tasks = [
-  { id: 2, content: "przejść na Reacta", done: true },
+  { id: 1, content: "przejść na Reacta", done: true },
   { id: 2, content: "zjeść obiad", done: false },
 ];
 
-const hideCompleted = true;
+const hideCompleted = false;
 
 function App() {
   return (
