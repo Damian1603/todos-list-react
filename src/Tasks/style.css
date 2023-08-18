@@ -13,7 +13,8 @@
     border-bottom: 2px solid #eee;
     word-break: break-word;
   }
-  
-  .taskList__done {
-    text-decoration: line-through;
+
+
+  .taskList__item--hidden {
+    display: none;
   }
