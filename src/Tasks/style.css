@@ -1,20 +1,18 @@
 .taskList {
-    padding: 20px 20px;
-    margin: auto;
-    list-style: none;
-  }
+  padding: 20px 20px;
   
-  .taskList__item {
-    padding: 10px;
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    gap: 10px;
-    align-items: center;
-    border-bottom: 2px solid #eee;
-    word-break: break-word;
-  }
+  list-style: none;
+}
 
+.taskList__item {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 10px;
+  align-items: center;
+  border-bottom: 2px solid #eee;
+}
 
-  .taskList__item--hidden {
-    display: none;
-  }
+.taskList__done {
+  text-decoration: line-through;
+}
