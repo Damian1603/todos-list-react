@@ -1,12 +1,12 @@
-import React from "react";
 import "./style.css";
 
 
-const Tasks = ({tasks}) => (
+const Tasks = (props) => (
     <ul className="taskList">
-        {tasks.map(task => (
-            <li className="taskList__item" >
-               <button className="button">
+        {props.tasks.map(task => (
+            <li
+                className={`taskList__item${task.done && props.hideCompleted ? "taskList__item--hidden" : ""}`}>
+                <button className="button">
                     {task.done ? "✓" : ""}
                 </button>
                 <span className={`task.done ? "taskList__done" : ""`}>
