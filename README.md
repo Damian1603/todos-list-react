@@ -1,8 +1,12 @@
-# Task list 
+# Tasks list
 
-<strong>Description:</strong>
+# Description:
 
 Basic to-do list with the ability to add, delete and hide tasks. This page was created as homework to practice creating lists in Java Script.
+
+# Demo: 
+[Link click](https://damian1603.github.io/todos-list-react/)
+
 # Which technologies i use?
 [![My Skills](https://skillicons.dev/icons?i=js,html,css,react,git)](https://skillicons.dev)
 
