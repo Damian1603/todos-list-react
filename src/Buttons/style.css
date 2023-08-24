@@ -6,6 +6,7 @@
     width: 30px;
     font-weight: bold;
     transition: 0.3s;
+    cursor: pointer;
   }
   
   .button:hover {
@@ -40,6 +41,7 @@
     align-items: end;
     justify-content: end;
     transition: 0.3s;
+    cursor: pointer;
   }
 
   .section__headerButtons:hover {

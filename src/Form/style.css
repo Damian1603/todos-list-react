@@ -21,7 +21,8 @@
     color: white;
     border: 0px;
     padding: 10px;
-    transition: 0.3s;
+    transition: 1s;
+    cursor: pointer;
   }
   
   .form__button:hover{
