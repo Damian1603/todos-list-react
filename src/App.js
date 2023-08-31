@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Form from './Form';
 import Tasks from './Tasks';
 import Buttons from './Buttons';
@@ -13,7 +13,11 @@ const tasks = [
 
 function App() {
 
-  const hideDone = false;
+  const [hideDone, setHideDone] = useState(false);
+
+  const toggleHideDone = () => {
+    setHideDone(hideDone => !hideDone)
+  };
 
   return (
     <Main>
@@ -27,7 +31,11 @@ function App() {
           <Tasks tasks={tasks} hideDone={hideDone} />
         }
         extraHeaderContent={
-          <Buttons tasks={tasks} hideDone={hideDone} />
+          <Buttons
+            toggleHideDone={toggleHideDone}
+            tasks={tasks}
+            hideDone={hideDone}
+          />
         }
       />
     </Main>
