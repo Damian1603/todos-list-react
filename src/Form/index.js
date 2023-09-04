@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./style.css";
 
-const Form = ({addNewTask}) => {
+const Form = ({ addNewTask }) => {
 
     const [newTaskContent, setNewTaskContent] = useState("");
 
@@ -14,6 +14,7 @@ const Form = ({addNewTask}) => {
     return (
         <form className="form" onSubmit={onFormSubmit}>
             <input
+                required
                 value={newTaskContent}
                 className="form__input"
                 type="text"
