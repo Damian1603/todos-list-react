@@ -7,7 +7,10 @@ const Form = ({ addNewTask }) => {
 
     const onFormSubmit = (event) => {
         event.preventDefault();
-        if (newTaskContent.trim() === "") {
+
+        const trimmedNewTask = newTaskContent.trim();
+
+        if (!trimmedNewTask) {
             return
         }
         addNewTask(newTaskContent.trim());
@@ -17,7 +20,6 @@ const Form = ({ addNewTask }) => {
     return (
         <form className="form" onSubmit={onFormSubmit}>
             <input
-                required
                 value={newTaskContent}
                 className="form__input"
                 type="text"
