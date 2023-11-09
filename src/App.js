@@ -5,15 +5,14 @@ import Buttons from './Buttons';
 import Section from './Section';
 import Main from './Main';
 
+const toDoList = [
+  { id: 1, content: "przejść na Reacta", done: true },
+  { id: 2, content: "zjeść obiad", done: false },
+];
 
 function App() {
-
   const [hideDone, setHideDone] = useState(false);
-
-  const [tasks, setTasks] = useState([
-    { id: 1, content: "przejść na Reacta", done: true },
-    { id: 2, content: "zjeść obiad", done: false },
-  ]);
+  const [tasks, setTasks] = useState(toDoList);
 
   const toggleHideDone = () => {
     setHideDone(hideDone => !hideDone)
