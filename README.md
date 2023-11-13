@@ -7,6 +7,9 @@ Basic to-do list with the ability to add, delete and hide tasks. This page was c
 # Demo: 
 [Link click](https://damian1603.github.io/todos-list-react/)
 
+![Animation](https://github.com/Damian1603/todos-list-react/assets/124574553/7e79f007-5eaa-4cc4-9136-d4aec15ac07a)
+
+
 # Which technologies i use?
 [![My Skills](https://skillicons.dev/icons?i=js,html,css,react,git)](https://skillicons.dev)
 
