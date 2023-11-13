@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import Form from './Form';
+import { useState } from 'react';
+import { Form } from './Form';
 import Tasks from './Tasks';
-import Buttons from './Buttons';
+import { Buttons } from './Buttons';
 import Section from './Section';
-import Main from './Main';
+import { Main } from './Main';
 
 const toDoList = [
   { id: 1, content: "przejść na Reacta", done: true },
