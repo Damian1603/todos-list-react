@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { Form } from './Form';
-import Tasks from './Tasks';
+import { Tasks } from './Tasks';
 import { Buttons } from './Buttons';
-import Section from './Section';
+import { Section } from './Section';
 import { Main } from './Main';
 
 const toDoList = [
