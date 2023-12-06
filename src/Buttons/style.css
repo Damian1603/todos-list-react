@@ -38,8 +38,6 @@
     padding: 0 10px;
     display: flex;
     flex-wrap: wrap;
-    align-items: end;
-    justify-content: end;
     transition: 0.3s;
     cursor: pointer;
   }
