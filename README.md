@@ -4,8 +4,7 @@
 
 Basic to-do list with the ability to add, delete and hide tasks. This page was created as homework to practice creating lists in Java Script.
 
-# Demo: 
-[Link click](https://damian1603.github.io/todos-list-react/)
+## [Demo](https://damian1603.github.io/todos-list-react/)
 
 ![Animation](https://github.com/Damian1603/todos-list-react/assets/124574553/7e79f007-5eaa-4cc4-9136-d4aec15ac07a)
 
