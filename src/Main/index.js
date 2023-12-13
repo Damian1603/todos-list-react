@@ -1,7 +1,7 @@
-import "./style.css";
+import { StyledMain } from "./styled";
 
 export const Main = ({ children }) => (
-    <main className="main">
+    <StyledMain >
         {children}
-    </main>
+    </StyledMain>
 );
