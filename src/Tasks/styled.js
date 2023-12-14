@@ -12,6 +12,7 @@ export const StyledItem = styled.li`
   gap: 10px;
   align-items: center;
   border-bottom: 2px solid #eee;
+  
   ${({ hidden }) => hidden && css`
    display: none;
   `}
@@ -24,36 +25,34 @@ export const StyledContent = styled.span`
 `;
 
 export const StyledButton = styled.button`
-  background-color: green;
-  color: white;
+  background-color: ${({ theme }) => theme.colors.green};
+  color: ${({ theme }) => theme.colors.white};
   border: 0;
   height: 30px;
   width: 30px;
   font-weight: bold;
   transition: 0.3s;
   cursor: pointer;
+
   &:hover{
-    background-color: hsl(120, 100%, 30%);
+    background-color: ${({ theme }) => theme.colors.lightGreen};
   }
+
   &:active{
     outline: auto black;
-    background-color: hsl(120, 100%, 35%);
+    background-color: ${({ theme }) => theme.colors.activeGreen}
   }
 `;
 
-export const StyledButtonRemove = styled.button`
-  background-color: crimson;
-  color: white;
+export const StyledButtonRemove = styled(StyledButton)`
+  background-color: ${({ theme }) => theme.colors.crimson};
   font-weight: normal;
-  border: 0;
-  height: 30px;
-  width: 30px;
-  transition: 0.3s;
-  cursor: pointer;
+
   &:hover{
-  background-color: hsl(348, 83%, 52%);
+  background-color:${({ theme }) => theme.colors.lightCrimson}
   }
+
   &:active{
-    background-color: hsl(348, 83%, 57%);
+    background-color:${({ theme }) => theme.colors.activeCrimson} 
   }
-`
+`;
