@@ -3,8 +3,9 @@ import { Form } from './Form';
 import { Tasks } from './Tasks';
 import { Buttons } from './Buttons';
 import { Section } from './Section';
-import { Main } from './Main';
+import { Container } from './Container';
 import { useTasks } from './useTasks';
+import { GlobalStyled } from './globalStyled';
 
 export function App() {
 
@@ -24,29 +25,31 @@ export function App() {
 
   return (
 
-    <Main>
-      <h1 className="main__header">Lista zadań</h1>
-      <Section
-        title="Dodaj nowe zadanie"
-        body={<Form addNewTask={addNewTask} />} />
-      <Section
-        title="Lista zadań"
-        body={<Tasks
-          tasks={tasks}
-          hideDone={hideDone}
-          removeTask={removeTask}
-          toggleTaskDone={toggleTaskDone}
-        />
-        }
-        extraHeaderContent={
-          <Buttons
-            setAllDone={setAllDone}
-            toggleHideDone={toggleHideDone}
+    <Container>
+      <GlobalStyled/>
+        <h1>Lista zadań</h1>
+        <Section
+          title="Dodaj nowe zadanie"
+          body={<Form addNewTask={addNewTask} />} />
+        <Section
+          title="Lista zadań"
+          body={<Tasks
             tasks={tasks}
             hideDone={hideDone}
+            removeTask={removeTask}
+            toggleTaskDone={toggleTaskDone}
           />
-        }
-      />
-    </Main>
+          }
+          extraHeaderContent={
+            <Buttons
+              setAllDone={setAllDone}
+              toggleHideDone={toggleHideDone}
+              tasks={tasks}
+              hideDone={hideDone}
+            />
+          }
+        />
+      
+    </Container>
   );
 };
