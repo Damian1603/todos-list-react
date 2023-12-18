@@ -16,6 +16,7 @@ export const Form = ({ addNewTask }) => {
         }
         addNewTask(newTaskContent.trim());
         setNewTaskContent("");
+        inputRef.current.focus();
     }
 
     return (
@@ -29,7 +30,7 @@ export const Form = ({ addNewTask }) => {
                 required
             />
             <StyledButton
-                onClick={() => inputRef.current.focus()}>
+                >
                 Dodaj zadanie
             </StyledButton>
         </StyledForm>
