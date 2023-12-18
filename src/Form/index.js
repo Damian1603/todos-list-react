@@ -29,8 +29,7 @@ export const Form = ({ addNewTask }) => {
                 onChange={(event) => setNewTaskContent(event.target.value)}
                 required
             />
-            <StyledButton
-                >
+            <StyledButton>
                 Dodaj zadanie
             </StyledButton>
         </StyledForm>
