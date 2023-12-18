@@ -3,7 +3,7 @@ import { Form } from './Form';
 import { Tasks } from './Tasks';
 import { Buttons } from './Buttons';
 import { Section } from './Section';
-import { Container } from './Container';
+import { StyledContainer } from './Container/styled.js'
 import { useTasks } from './useTasks';;
 
 export function App() {
@@ -24,7 +24,7 @@ export function App() {
 
   return (
 
-    <Container>
+    <StyledContainer>
       <h1>Lista zadań</h1>
       <Section
         title="Dodaj nowe zadanie"
@@ -48,6 +48,6 @@ export function App() {
         }
       />
 
-    </Container>
+    </StyledContainer>
   );
 };
