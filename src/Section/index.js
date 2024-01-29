@@ -11,4 +11,5 @@ export const Section = ({ title, body, extraHeaderContent }) => (
         <div>
             {body}
         </div>
-    </StyledSection>);
+    </StyledSection>
+);
