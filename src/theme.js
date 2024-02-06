@@ -14,5 +14,5 @@ export const theme = {
         teal: "#008080",
         activeTeal: "#00b3b3",
         background: "#d8d8d8"
-    }
+    },
 };
