@@ -1,11 +1,13 @@
 import styled from "styled-components";
 
 export const StyledButton = styled.div`
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
+    display: flex;
+    gap: 10px;
+ 
     @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+    display: grid;
     grid-template-columns: 1fr;
+    grid-gap: 10px;
   }
 `;
 
@@ -21,7 +23,7 @@ export const StyledButtonHeader = styled.button`
     }
 
     &:hover{
-   color:${({ theme }) => theme.colors.activeTeal}
+    color:${({ theme }) => theme.colors.activeTeal}
     }
     &:disabled{
         color: #ddd;
