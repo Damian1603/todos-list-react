@@ -8,7 +8,7 @@ A basic to-do list with the ability to add, remove, hide completed tasks, and ma
 
 
 # Which technologies i use?
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,babel,react,git,nodejs,styledcomponents)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,babel,react,redux,git,nodejs,styledcomponents)](https://skillicons.dev)
 
 # Getting Started with Create React App
 
