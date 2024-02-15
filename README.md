@@ -1,15 +1,14 @@
 # Tasks list
 
 # Description:
-
-Basic to-do list with the ability to add, delete and hide tasks. This page was created as homework to practice creating lists in Java Script. Using create react app package.
+A basic to-do list with the ability to add, remove, hide completed tasks, and mark tasks that have been completed. This page was created as homework to practice creating lists in JavaScript. I used the react library to create the project using create react app, and redux to practice handling the global state of my application. I also added global styles and styled components to the application
 ## [Demo](https://damian1603.github.io/todos-list-react/)
 
 ![Animation](https://github.com/Damian1603/todos-list-react/assets/124574553/7e79f007-5eaa-4cc4-9136-d4aec15ac07a)
 
 
 # Which technologies i use?
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,babel,react,git,nodejs,styledcomponents)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,babel,react,redux,git,nodejs,styledcomponents)](https://skillicons.dev)
 
 # Getting Started with Create React App
 
