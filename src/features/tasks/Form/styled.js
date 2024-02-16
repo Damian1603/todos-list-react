@@ -14,7 +14,9 @@ export const StyledForm = styled.form`
 export const StyledInput = styled.input`
   padding: 10px;
   border: 2px solid #eee;
+  width: 100%;
 `;
+
 
 export const StyledButton = styled.button`
   background-color: ${({theme})=>theme.colors.teal};
