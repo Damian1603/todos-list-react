@@ -15,6 +15,7 @@ export const GlobalStyled = createGlobalStyle`
   font-family: "Montserrat", sans-serif;
   max-width: 1000px;
   margin: auto;
+  
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
   margin:auto;
   }
