@@ -13,14 +13,13 @@ export const StyledForm = styled.form`
 
 export const StyledInput = styled.input`
   padding: 10px;
-  border: 2px solid #eee;
+  border: 2px solid ${({ theme }) => theme.colors.borderInput};
   width: 100%;
 `;
 
-
 export const StyledButton = styled.button`
-  background-color: ${({theme})=>theme.colors.teal};
-  color: ${({theme})=>theme.colors.white};
+  background-color: ${({ theme }) => theme.colors.teal};
+  color: ${({ theme }) => theme.colors.white};
   border: 0px;
   padding: 10px;
   transition: 1s;
