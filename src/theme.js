@@ -13,6 +13,7 @@ export const theme = {
         lightTeal: "#009999",
         teal: "#008080",
         activeTeal: "#00b3b3",
-        background: "#d8d8d8"
+        background: "#d8d8d8",
+        borderInput: "#eee"
     },
 };
