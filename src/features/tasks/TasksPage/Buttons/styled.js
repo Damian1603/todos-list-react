@@ -16,7 +16,6 @@ export const StyledButtonHeader = styled.button`
     background-color: transparent;
     border: 0px transparent;
     transition: 0.5s;
-
     cursor:pointer;
 
     @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
