@@ -2,7 +2,7 @@ import { StyledContainer } from "../../common/Container/styled";
 import { Section } from "../../common/Section";
 import { StyledDescription } from "../../common/Section/styled";
 
-export default () => (
+export const AuthorPage = () => (
   <StyledContainer>
     <h1>O autorze</h1>
     <Section
