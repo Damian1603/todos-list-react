@@ -1,14 +1,15 @@
 import { StyledButtonHeader } from "../Buttons/styled";
-import { useDispatch } from "react-redux";
-import { fetchExampleTasks } from "../../tasksSlice";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchExampleTasks, selectTasksLoading } from "../../tasksSlice";
 
 export const FetchExampleTasksButton = () => {
 
     const dispatch = useDispatch(fetchExampleTasks);
-    
+    const loading = useSelector(selectTasksLoading);
+
     return (
-        <StyledButtonHeader onClick={() => dispatch(fetchExampleTasks())}>
-            Pobierz przykładowe zadania
+        <StyledButtonHeader disabled={loading} onClick={() => dispatch(fetchExampleTasks())}>
+            {loading ? "Ładowanie..." : "Pobierz przykładowe zadania"}
         </StyledButtonHeader>
     )
 };
