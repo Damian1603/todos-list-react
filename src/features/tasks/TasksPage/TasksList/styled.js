@@ -60,14 +60,14 @@ export const StyledButtonRemove = styled(StyledButton)`
 
 export const StyledLinkTask = styled(Link)`
   text-decoration: none;
-  color: black;
-
+  color: teal;
+  transition: 0.5s;
+  
   &:hover{
-    color: teal;
+    color: ${({ theme }) => theme.colors.lightTeal};
   }
 
   &:active{
-    color:${({ theme }) => theme.colors.lightTeal} 
+    color:${({ theme }) => theme.colors.activeTeal} 
   }
-
 `;

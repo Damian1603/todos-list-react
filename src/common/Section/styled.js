@@ -28,5 +28,5 @@ export const StyledHeaderName = styled.h3`
 
 export const StyledDescription = styled.p`
     padding: 20px;
-    margin: 1px;
+    margin: 5px;
 `;
