@@ -9,9 +9,8 @@ export const AuthorPage = () => (
       title="Damian Kuczyński"
       body={
         <StyledDescription>
-          Mam 23 lata i przez ostatnie 10 lat grałem w piłkę nożną.
-          W tym czasie miałem okazję występować w drużynach juniorskich takich klubów jak<strong> Polonia Warszawa</strong>, czy <strong>Ruch Chorzów</strong>. Uwielbiam sport i wszelkiego rodzaju aktywność fizyczną.
-          Obecnie zajmuję się sprzedażą artykułów i kosmetyków fryzjerskich online w hurtowni kosmetycznej.
+          Mam 23 lata i przez ostatnie 10 lat grałem w piłkę nożną. Obecnie uczę się frontendu w YouCode z nadzieją, że uda mi się za jakiś czas znaleźć swoją pierwszą pracę jako programista. 
+          Uwielbiam korzystać z nowych wynalazków technologicznych i sprawdzać ich możliwości. Naturalnie moją drugą pasją jest piłka nożna jak i również wszelkiego rodzaju aktywność fizyczna.  
         </StyledDescription>
       }
     />
