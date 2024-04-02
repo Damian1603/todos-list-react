@@ -6,5 +6,5 @@ export const Navigation = () => {
             <StyledNavLink to="/zadania">Zadania</StyledNavLink>
             <StyledNavLink to="/autor">O autorze</StyledNavLink>
         </StyledNavigationList>
-    )
+    );
 };
