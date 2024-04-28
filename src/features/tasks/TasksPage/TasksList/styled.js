@@ -34,6 +34,9 @@ export const StyledButton = styled.button`
   font-weight: bold;
   transition: 0.3s;
   cursor: pointer;
+@media (max-width:${({ theme }) => theme.breakpoints.mobile}px) {
+  align-self: center;
+}
 
   &:hover{
     background-color: ${({ theme }) => theme.colors.lightGreen};

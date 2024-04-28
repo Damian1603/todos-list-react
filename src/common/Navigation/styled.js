@@ -7,6 +7,7 @@ export const StyledNavigationList = styled.ul`
     justify-content: center;
     background-color: teal;
     margin: 0;
+    padding: 0;
 `;
 
 export const StyledNavLink = styled(NavLink).attrs(() => ({
