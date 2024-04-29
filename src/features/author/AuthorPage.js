@@ -9,8 +9,9 @@ export const AuthorPage = () => (
       title="Damian Kuczyński"
       body={
         <StyledDescription>
-          Mam 23 lata i przez ostatnie 10 lat grałem w piłkę nożną. Obecnie uczę się frontendu w YouCode z nadzieją, że uda mi się za jakiś czas znaleźć swoją pierwszą pracę jako programista. 
-          Uwielbiam korzystać z nowych wynalazków technologicznych i sprawdzać ich możliwości. Naturalnie moją drugą pasją jest piłka nożna jak i również wszelkiego rodzaju aktywność fizyczna.  
+          Mam 24 lata i mieszkam w Warszawie.
+          Uwielbiam sport i wszelkiego rodzaju aktywność fizyczną. Kibic piłki nożnej, oraz miłośnik nowinek technologicznych.
+          W niedalekiej przyszłości mam nadzieję frontend developer.😉🤞
         </StyledDescription>
       }
     />
