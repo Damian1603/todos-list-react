@@ -22,4 +22,8 @@ export const StyledNavLink = styled(NavLink).attrs(() => ({
     &.${activeClassName} {
         font-weight: bold;
     }
+
+    &:hover {
+        text-decoration: underline;
+    }
 `;
