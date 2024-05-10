@@ -1,5 +1,4 @@
 import { useSelector, useDispatch } from "react-redux";
-import { useLocation } from "react-router-dom/cjs/react-router-dom.min";
 import { toggleTaskDone, removeTask, selectHideDone, selectTasksByQuery } from "../../tasksSlice";
 import {
     StyledList,
@@ -9,14 +8,14 @@ import {
     StyledLinkTask,
     StyledButtonRemove,
 } from "./styled";
+import searchQueryParamName from "../searchQueryParamName";
+import { useQueryParameters } from "../../queryParameters";
 
 export const TasksList = () => {
-    const location = useLocation();
-    const query = (new URLSearchParams(location.search)).get("szukaj");
 
+    const query = useQueryParameters(searchQueryParamName);
     const tasks = useSelector(state => selectTasksByQuery(state, query));
     const hideDone = useSelector(selectHideDone);
-
     const dispatch = useDispatch();
 
     return (
@@ -42,4 +41,4 @@ export const TasksList = () => {
             ))}
         </StyledList>
     )
-}
+};

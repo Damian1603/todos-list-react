@@ -34,6 +34,9 @@ export const StyledButton = styled.button`
   font-weight: bold;
   transition: 0.3s;
   cursor: pointer;
+@media (max-width:${({ theme }) => theme.breakpoints.mobile}px) {
+  align-self: center;
+}
 
   &:hover{
     background-color: ${({ theme }) => theme.colors.lightGreen};
@@ -60,14 +63,14 @@ export const StyledButtonRemove = styled(StyledButton)`
 
 export const StyledLinkTask = styled(Link)`
   text-decoration: none;
-  color: black;
-
+  color: teal;
+  transition: 0.5s;
+  
   &:hover{
-    color: teal;
+    color: ${({ theme }) => theme.colors.lightTeal};
   }
 
   &:active{
-    color:${({ theme }) => theme.colors.lightTeal} 
+    color:${({ theme }) => theme.colors.activeTeal} 
   }
-
 `;

@@ -14,8 +14,8 @@ export function TaskPage() {
         <StyledContainer>
             <h1>Szczegóły zadania</h1>
             <Section
-                title={task ? task.content : "Nie znaleziono zadania"}
-                body={
+                title={task ? task.content : "Nie znaleziono zadania 😥"}
+                body={!!task &&
                     <StyledDescription>
                         <><strong>Ukończono: </strong>{task.done ? "Tak" : "Nie"}</>
                     </StyledDescription>
