@@ -1,7 +1,7 @@
 # Tasks list
 
 # Description:
-A basic to-do list with the ability to add, remove, hide completed tasks, and mark tasks that have been completed. This page was created as homework to practice creating lists in JavaScript. I used the react library to create the project using create react app, and redux to practice handling the global state of my application. I also added global styles and styled components to the application. Using the "download sample tasks" button, we download two sample tasks marked as unfinished. I created sections about the application author and task section as navigation based on react router.
+A basic to-do list with the ability to add, remove, hide completed tasks, and mark tasks that have been completed. This page was created as homework to practice creating lists in JavaScript. I used the react library to create the project using create react app, and redux to practice handling the global state of my application. Used the redux-saga library to manage side effects. I also added global styles and styled components to the application. Using the "download sample tasks" button, we download two sample tasks marked as unfinished. I created sections about the application author and task section as navigation based on react router.
 ## [Demo](https://damian1603.github.io/todos-list-react/)
 
 ![Animation](https://github.com/Damian1603/todos-list-react/assets/124574553/1f3384c9-fc15-43ac-a71e-202381b4fa07)
