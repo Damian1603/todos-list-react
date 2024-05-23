@@ -16,8 +16,8 @@ export const StyledHeader = styled.header`
     align-items: center;
 
     @media (max-width:${({ theme }) => theme.breakpoints.mobile}px) {
-    grid-template-columns: 1fr;
-    gap: 10px;
+        grid-template-columns: 1fr;
+        gap: 10px;
  }
 `;
 
